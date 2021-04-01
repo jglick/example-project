@@ -3,6 +3,6 @@ node {
     checkout scm
   }
   stage('main') {
-    sh 'ls'
+    sh 'oops'
   }
 }
