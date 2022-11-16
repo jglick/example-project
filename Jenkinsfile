@@ -4,7 +4,7 @@ podTemplate {
       checkout scm
     }
     stage('main') {
-      sh 'ls'
+      sh 'ls && sleep 30'
     }
   }
 }
