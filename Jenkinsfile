@@ -1,10 +1,4 @@
-podTemplate {
-  node(POD_LABEL) {
-    stage('prep') {
-      checkout scm
-    }
-    stage('main') {
-      sh 'ls'
-    }
-  }
+node {
+  checkout scm
+  sh 'cat Jenkinsfile'
 }
