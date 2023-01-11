@@ -4,7 +4,7 @@ podTemplate {
       checkout scm
     }
     stage('main') {
-      sh 'ls && sleep 1m'
+      sh 'cat foo'
     }
   }
 }
